@@ -63,9 +63,9 @@ module.exports = function start (app) {
         }),
         function (err) {
           if (err) errors.write(err)
-          done()
         }
       )
+      done()
     }),
     onEnd
   )
